@@ -1,0 +1,117 @@
+.header h1 {
+    color: #304ffe;
+    margin: 50px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: #304ffe25 0px 7px 29px 0px;
+}
+
+.form input {
+    width: 45%;
+    height: 49px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #efefef;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.form button {
+    width: calc(90% + 20px);
+    height: 40px;
+    padding: 10px;
+    margin: 20px 0;
+    cursor: pointer;
+    background-color: #304ffe;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+    transition: 0.2s all ease-in-out;
+}
+
+.form button:hover {
+    box-shadow: #0302a478 0px 7px 29px 0px;
+}
+
+.alert {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 25px;
+}
+
+.alert p {
+    background-color: #ffebee;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f44336;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+    .form input {
+        width: 90%;
+    }
+    .form button {
+        width: 90%;
+    }
+}
+
+.contactList {
+    width: 100%;
+    padding: 20px;
+}
+
+.contactList h2 {
+    text-align: left;
+    width: 100%;
+    color: #304ffe;
+}
+
+.contactList p {
+    margin: 40px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 500px;
+    color: gray;
+    background-color: #efefef;
+}
+
+.contactItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: #304ffe25 0px 7px 29px 0px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.name {
+    font-size: 17px;
+}
+.contactItem div.email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
