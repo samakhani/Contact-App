@@ -41,7 +41,6 @@ const Contacts = () => {
             email: "",
             phone: "",
         });
-        console.log(contactList);
     };
 
     const deleteHandler = (contactId) => {
